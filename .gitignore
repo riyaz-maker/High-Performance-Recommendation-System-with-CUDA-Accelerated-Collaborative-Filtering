@@ -1,0 +1,9 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore data folder (since MovieLens will be downloaded by the script)
+data/ml-latest-small/
+
+# Ignore environment files
+.env
